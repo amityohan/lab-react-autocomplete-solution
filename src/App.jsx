@@ -30,6 +30,7 @@ export default function App() {
       <div>
         <div>
           <h1>hello</h1>
+          <h1>bye</h1>
           <input type="text" value={value} onChange={onChange} onKeyDown={handleKey} />
           <button onClick={() => onSearch(value)}> Search </button>
         </div>
